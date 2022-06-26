@@ -12,9 +12,9 @@ public class CustomMultipleSelectionPopupDrawer : PropertyDrawer
         int arraySize = property.arraySize;
         if(arraySize == 0)
         {
-            name = "None";
+            name = "None";   
         }
-        else if(arraySize == 1)
+        else if(arraySize == 1) 
         {
             int index = property.GetArrayElementAtIndex(0).intValue;
             name = selectionNames[index];
